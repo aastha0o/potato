@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plan Your Trip</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🏔 Nepal Travel Planner</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="planner.html">Plan Trip</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section class="page">
+  <h1>Build Your Travel Plan</h1>
+
+  <div class="form-box">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="place" placeholder="Destination (e.g. Pokhara)">
+    <input type="date" id="date">
+
+    <button onclick="addPlan()">Add to Plan</button>
+  </div>
+
+  <div id="planList"></div>
+</section>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
